@@ -1,0 +1,50 @@
+package com.android.ninja;
+
+/**
+ * Description
+ * <p/>
+ * Google field naming convention:
+ * Non-public, non-static field names start with m.
+ * Static field names start with s.
+ * Other fields start with a lower case letter.
+ * Public static final fields (constants) are ALL_CAPS_WITH_UNDERSCORES.
+ *
+ * @author Aziz Kadhi
+ */
+public class FirstSteps {
+
+    public void howToSaveYourBehind() {
+        // Use Local History.
+        // Right click any file or folder and click on Local History (5th from the bottom)
+        // then select Show History
+
+        // Before making any significant changes, I suggest you label the current codebase
+        // Same steps as above, right below Show History, click on Put Label...
+    }
+
+    public void configureCodeGeneration() {
+        // To open "Settings" use cmd + ,
+
+        // Navigate to Settings->Editor->Code Style->Java->Code Generation
+        // Configure the Field and Static Field entries.
+    }
+
+    public void openSesame() {
+        // Go to class: cmd + o
+        // Go to file: cmd + shift + o
+        //             type / to filter by folders
+        // Go to symbol: cmd + opt + o
+        //              type MA.findMe
+
+        // Find in path: cmd + shift + f
+        //               IntelliJ IDEA 15: 2 tabs: Options and Preview (x), preview allows us to find something without
+        //               navigating outside the dialog.
+
+        // Recommended way to search is Search Everywhere: shift + shift (double shift)
+        // Classes/files/plugins/EVERYTHING!
+
+    }
+
+
+
+}
