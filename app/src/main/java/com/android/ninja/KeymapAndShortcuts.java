@@ -126,7 +126,6 @@ public class KeymapAndShortcuts {
 
         // Select camel hump chunks: option + shift + arrow (vs cmd + shift + arrow)
         String selectCamelHumps = "theSpeedOfLightCannotBeAchievedByASolidObject";
-
     }
 
 
