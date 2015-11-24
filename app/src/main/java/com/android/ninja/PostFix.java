@@ -14,12 +14,11 @@ import android.content.Context;
  * @author Aziz Kadhi
  */
 public class PostFix {
-    public PostFix(Context ctx, int i) {
+    public PostFix(Context ctx, int value) {
         // try
         ctx.getApplicationContext();
 
         // nn and cast
-
 
         // not
 
@@ -28,5 +27,5 @@ public class PostFix {
     }
 
 
-    private int findMe;
+    private int mFindMe;
 }

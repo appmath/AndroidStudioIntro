@@ -1,7 +1,10 @@
 package com.android.ninja;
 
+import android.content.Context;
 import android.media.Image;
+import android.os.Parcel;
 import android.os.Parcelable;
+import android.support.annotation.NonNull;
 import android.util.Log;
 import android.widget.ImageView;
 
@@ -18,14 +21,16 @@ import android.widget.ImageView;
  */
 public class LiveTemplate {
     private static final String LOG_TAG = LiveTemplate.class.getSimpleName();
-
+    private Context ctx = new MainActivity();
 
     // Create constants: psfx
+    // Type psfs then press Tab
 
     // Create method
 
     // Logging
     public void logging() {
+
     }
 
 
@@ -35,23 +40,23 @@ public class LiveTemplate {
     public void androidSpecificTemplates() {
         // gone/visible: new ImageView(new MainActivity())
 
-
         int[] nums = {1, 2, 3};
+
+        // foreach
 
     }
 
     // Start an activity: start
 
 
+}
+
     // Use Parcelable template.
     class Model implements Parcelable {
-
-
         String look = "right";
         String see = "left";
         String watch = "above";
 
         // Parcelable
-
     }
-}
+

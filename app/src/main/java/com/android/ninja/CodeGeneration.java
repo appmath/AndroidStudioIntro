@@ -1,5 +1,6 @@
 package com.android.ninja;
 
+import android.os.Parcel;
 import android.os.Parcelable;
 
 /**
@@ -19,25 +20,19 @@ public class CodeGeneration {
         // cmd + option + t
         System.out.println("Hello");
 
-
-        // To unwrap/delete/undo: cmd + shift + delete
+        // Cool feature: unwrap/delete/undo: cmd + shift + delete
         System.out.println();
     }
 
 
     // Code generator: cmd + n
     // Code "fixer": option  +  enter
+
+    // Move cursor to class and press option + enter then select implement methods
+    // Move cursor to class name (Parcelable) then select Add Parcelable implementation.
     static class CrucialInfoParcelable implements Parcelable {
 
-
-
-        // Create fields by moving the cursor inside the parameter and clicking on option + enter + c (c as in create)
-        public CrucialInfoParcelable(int age, String name) {
-        }
     }
-
-
-}
 
 interface ImplementMe {
     /**
@@ -69,6 +64,8 @@ class Model{
     String look = "right";
     String see = "left";
     String watch = "above";
+
+
 
 
 }

@@ -50,5 +50,5 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    private int findMe;
+    private int mFindMe;
 }

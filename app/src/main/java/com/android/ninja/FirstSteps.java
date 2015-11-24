@@ -14,7 +14,7 @@ package com.android.ninja;
 public class FirstSteps {
 
     public void howToSaveYourBehind() {
-        // Use Local History.
+        // Use Local History. WHY?
         // Right click any file or folder and click on Local History (5th from the bottom)
         // then select Show History
 
@@ -33,8 +33,9 @@ public class FirstSteps {
         // Go to class: cmd + o
         // Go to file: cmd + shift + o
         //             type / to filter by folders
-        // Go to symbol: cmd + opt + o
-        //              type MA.findMe
+
+        // Go to symbol: cmd + option + o
+        //              type MA.mFindMe or D.mFindMe
 
         // Find in path: cmd + shift + f
         //               IntelliJ IDEA 15: 2 tabs: Options and Preview (x), preview allows us to find something without

@@ -16,15 +16,16 @@ public class Agenda {
     public void flow() {
         Object[] obs = {
             // Jetbrains/Intellij IDEA history
+
+            // To navigate to the class, cmd + click on the constructor/class/method...
             new FirstSteps(),
-            new Debugger(), // Erik S mentioned having worked with a seasoned developer who uses sysout to debug.
             new KeymapAndShortcuts(),
+            new Debugger(), // Erik S mentioned having worked with a seasoned developer who uses sysout to debug.
             new CodeGeneration(),
+            new PluginButterKnifeFragment(),
             new PostFix(new MainActivity(), 0),
             new LiveTemplate(),
             new LanguageInjection()
-
-
         };
     }
 }

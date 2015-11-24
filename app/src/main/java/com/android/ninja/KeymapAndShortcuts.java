@@ -17,7 +17,7 @@ import android.widget.ImageView;
 public class KeymapAndShortcuts {
     String nameIsAName;
 
-    // IntelliJ was designed to be used 100% without a mouse (no need for tabs!)
+    // IntelliJ was designed to be used 100% without a mouse (and no need for tabs!)
 
     // The MOST important shortcut: find the shortcut associated with an action
     // CMD + SHIFT + A
@@ -35,23 +35,25 @@ public class KeymapAndShortcuts {
         new ImageView(new MainActivity()).getBaseline();
 
         // Smart type completion: ctrl + space
-        StringBuilder builder = new;
+        StringBuilder builder = new ;
 
         // Complete current statement: cmd + shift + enter
         if (builder == null)
 
         // Hippie completion: option + /
-        String name1;
-        String name2;
-        String name3;
+        String someLongNameStr;
+        String s;
+        String so;
 
 
     }
 
     public void navigation() {
-        // Move to last visited: cmd + [
+
+        // Move back/forward: cmd + [/]
         // Show/hide Project/Structure/x: cmd + 1/cmd + 7/cmd + x
         // Split editor vertically
+
         // Alternative to using "Structure" navigation pane: fn + cmd + F12
         // Open file/folder in Finder: fn + option + cmd + F12
 
@@ -62,14 +64,21 @@ public class KeymapAndShortcuts {
         // Create bookmark: ctrl + shift + x where x = [0-9]
         // Go to bookmark: ctrl + [0-9]
         // New basic: fn + F3
+        // Show all bookmarks: cmd + fn + F3
+
+        // A favorite of mine...Go to next highlighted error
+        // fn + F2
+
+        refactorValue();
     }
 
     public static void moveMe() {
         // The F6 family of crucial refactorings:
         // 1) Rename: cmd + shift + F6
-        // 2) Move: cmd + F6
-        // 3) Change method structure: cmd + fn + F6
+        // 3) Change method signature: cmd + fn + F6
+        // 2) Move: fn + F6
     }
+
 
     public void refactorValue() {
         // cmd + option + v, f, c, or p
@@ -77,16 +86,15 @@ public class KeymapAndShortcuts {
         // 2) field: f
         // 3) constant: c
         // 4) parameter: p
-        // Create var, field and constant
-        // 100
+        // Use the value below to create a var, field, constant and parameter;
+         100;
     }
 
     public void textEditing() {
-        // Clipboard history
-        // cmd + shift + v
+        // Clipboard history: cmd + shift + v
+        // Paste simple (very convenient when you copying text from an external source): cmd + option + shift + v
 
-
-        // Expand/shrink selection: cmd + w/cmd + shift + w
+        // Expand (shrink) selection: cmd + w  (cmd + shift + w)
         String aziz = "scooter fan/boy";
         int[] horsepower = {10, 20, 30, 40, 50};
         for (int hp : horsepower) {
@@ -95,7 +103,7 @@ public class KeymapAndShortcuts {
         // cmd + d (duplicate)
         String replicateMe = null;
 
-        // cmd + y or cmd + delete
+        // cmd + y or cmd + backspace
         String deleteMe;
 
         // cmd + shift + arrow up/down
@@ -110,13 +118,13 @@ public class KeymapAndShortcuts {
     }
 
     public void textNavigation() {
-        // cmd + arrow
+        // Move caret from start to end of the statement (and vice versa): cmd + arrow
         String moveCaretToStartEnd = "She has a new album, I really like her voice";
 
-        // option + arrow
+        // Move caret between camel hump words: option + arrow
         String moveCaretBetweenCamelHumps = "theSpeedOfLightCannotBeAchievedByASolidObject";
 
-        // option + shift + arrow
+        // Select camel hump chunks: option + shift + arrow (vs cmd + shift + arrow)
         String selectCamelHumps = "theSpeedOfLightCannotBeAchievedByASolidObject";
 
     }
@@ -127,11 +135,14 @@ public class KeymapAndShortcuts {
         // Sublime style code editing.
 
         // Multi-cursor selection: alt + shift + mouse
-        // Multi-edit: select the target (word), cmd + ctrl + g
+        // Multi-edit: select the target (word), cmd + CTRL + g
         int moveMouseRight;
         int moveMouseLeft;
         int moveMouseUp;
         int moveMouseDown;
+
+        // Column selection mode: cmd + shift + 8
     }
 
+    private int findMe;
 }
