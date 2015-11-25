@@ -1,7 +1,9 @@
 package com.android.ninja;
 
+// TODO: 11/24/15 Add Windows info
 /**
  * This is a somewhat interactive presentation. Just navigate to each constructor and follow the directions.
+ *
  * <p/>
  * Google field naming convention:
  * Non-public, non-static field names start with m.
