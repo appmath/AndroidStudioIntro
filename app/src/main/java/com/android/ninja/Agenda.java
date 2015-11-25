@@ -1,7 +1,7 @@
 package com.android.ninja;
 
 /**
- * Description
+ * This is a somewhat interactive presentation. Just navigate to each constructor and follow the directions.
  * <p/>
  * Google field naming convention:
  * Non-public, non-static field names start with m.
