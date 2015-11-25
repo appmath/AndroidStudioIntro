@@ -103,7 +103,7 @@ public class KeymapAndShortcuts {
         // cmd + d (duplicate)
         String replicateMe = null;
 
-        // cmd + y or cmd + backspace
+        // cmd + delete
         String deleteMe;
 
         // cmd + shift + arrow up/down

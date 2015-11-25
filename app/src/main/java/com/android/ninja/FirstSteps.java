@@ -20,6 +20,8 @@ public class FirstSteps {
 
         // Before making any significant changes, I suggest you label the current codebase
         // Same steps as above, right below Show History, click on Put Label...
+
+
     }
 
     public void configureCodeGeneration() {
@@ -27,6 +29,7 @@ public class FirstSteps {
 
         // Navigate to Settings->Editor->Code Style->Java->Code Generation
         // Configure the Field and Static Field entries.
+
     }
 
     public void openSesame() {
